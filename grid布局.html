@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .container {
+      display: grid
+    }
+  </style>
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+  <p>grid布局总共有三个主要的组件：容器，行，和列</p>
+  <p>容器一：.container实现固定的宽度，.container-fluid实现全宽度，会将你的页面的内容居中。</p>
+  <p>行是列的横向组合，确保适当的排列你的列</p>
+  <p>内容必须放置在列中，而且只有列可以是行的直接子元素</p>
+  <p>列类表明你想要占用的列的数量，每行最多可用12列。</p>
+  <p>列的width是百分比设置的，所以他们总是流式的，而且尺寸与父元素相关</p>
+  <p>列拥有水平的padding的，以创建列与列之间的间隙</p>
+  <strong>实例</strong>
+  <div class="container">
+    <div class="item item-1">
+      <p class="sub-item">行1</p>
+    </div>
+    <div class="item item-2">
+      <p class="sub-item">行2</p>
+    </div>
+    <div class="item item-3"></div>
+  </div>
+</body>
+
+</html>
